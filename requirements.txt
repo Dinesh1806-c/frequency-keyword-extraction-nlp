@@ -1,5 +1,52 @@
-nltk
-beautifulsoup4
-scikit-learn
-wordcloud
-matplotlib
+# ============================================================
+#  Frequency-Based Keyword Extraction — Reuters-21578
+#  Author  : B. Dinesh | Register No: 23BCS027
+#  Subject : Natural Language Processing
+# ============================================================
+#
+#  NO EXTERNAL PACKAGES REQUIRED
+#
+#  This project uses ONLY Python Standard Library modules.
+#  All algorithms (TF-IDF, RAKE, Log-Likelihood, PageRank)
+#  are implemented from scratch without any third-party library.
+#
+#  Minimum Python version: Python 3.6+
+#
+# ============================================================
+#
+#  Standard Library modules used (built into Python):
+#
+#    re          - Regular expressions for text cleaning
+#    os          - File and directory operations
+#    math        - log(), sqrt() for TF-IDF and LLR formulas
+#    json        - Save results to results.json
+#    heapq       - Efficient top-N keyword selection
+#    string      - String constants
+#    collections - Counter() for frequency counting
+#    tarfile     - Auto-extract reuters21578.tar.gz
+#    html        - unescape() for SGML entity decoding
+#
+# ============================================================
+#
+#  To verify your Python version, run:
+#    python --version
+#
+#  To run the project:
+#    python keyword_extraction.py
+#
+# ============================================================
+#
+#  OPTIONAL — only if you want to extend the project with
+#  advanced neural methods in the future:
+#
+# nltk>=3.8.1
+# scikit-learn>=1.3.0
+# numpy>=1.24.0
+# pandas>=2.0.0
+# matplotlib>=3.7.0
+# seaborn>=0.12.0
+# wordcloud>=1.9.0
+# transformers>=4.30.0
+# sentence-transformers>=2.2.0
+#
+# ============================================================
